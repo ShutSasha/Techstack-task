@@ -64,6 +64,10 @@ class apartmentController {
 
    async editApartment(req, res, next) {
       try {
+         const errors = validationResult(req)
+         if (!errors.isEmpty()) {
+            return next(ApiError.BadRequest('Помилка при валідації', errors.array()))
+         }
          const { id } = req.params
          const { rooms, name, price, description } = req.body
 
