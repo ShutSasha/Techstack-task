@@ -1,0 +1,33 @@
+.apartment_header {
+   margin-bottom: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   .available_apartment_title {
+      font-size: 1.5rem;
+      font-weight: 500;
+   }
+
+   .apartment_controls {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      .filter {
+         font-size: 1.3rem;
+         font-weight: 400;
+      }
+
+      .sort {
+         font-size: 1.3rem;
+         font-weight: 400;
+      }
+   }
+}
+
+.apartment_list {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}

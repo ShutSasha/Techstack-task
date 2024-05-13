@@ -1,0 +1,24 @@
+.title {
+   font-size: 1.5rem;
+   font-weight: 600;
+   margin-bottom: 25px;
+   text-align: left;
+}
+
+.form_container {
+   padding: 20px 25px;
+   display: flex;
+   gap: 20px;
+   justify-content: space-between;
+   background-color: #e8e4ec;
+   border-radius: 3px;
+
+   .btn {
+      background-color: #2cbc9c;
+      color: white;
+      padding: 14px 20px;
+      cursor: pointer;
+      border-radius: 3px;
+      font-size: 16px;
+   }
+}
